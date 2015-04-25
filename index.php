@@ -281,7 +281,11 @@ switch (ENVIRONMENT)
 	}
 
 	define('VIEWPATH', $view_folder);
-
+	
+	/**
+	 * 定义视图主题
+	 */
+	define('THEME', 'default');
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
